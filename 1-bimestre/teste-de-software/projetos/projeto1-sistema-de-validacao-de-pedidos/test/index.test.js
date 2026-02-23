@@ -8,7 +8,7 @@ test('pedido válido deve retornar true', () => {
     };
 
     expect(validarPedido(pedidoValido)).toBe(true);
-});
+})
 
 test('pedido com total zero deve retornar false', () => {
     const pedidoInvalido = {
