@@ -1,6 +1,6 @@
 const { validarPedido } = require('../index');
 
-test('pedido válido deve retornar true', () => {
+test('Pedido válido deve retornar true', () => {
     const pedidoValido = {
         cliente: "Carlos",
         total: 150,
@@ -10,7 +10,7 @@ test('pedido válido deve retornar true', () => {
     expect(validarPedido(pedidoValido)).toBe(true);
 });
 
-test('pedido com total zero deve retornar false', () => {
+test('Pedido com total 0 deve retornar false', () => {
     const pedidoInvalido = {
         cliente: "Carlos",
         total: 0,
@@ -20,7 +20,7 @@ test('pedido com total zero deve retornar false', () => {
     expect(validarPedido(pedidoInvalido)).toBe(false);
 });
 
-test('pedido sem cliente deve retornar false', () => {
+test('Pedido sem cliente deve retornar false', () => {
     const pedidoInvalido = {
         total: 150,
         itens: ["Produto A"]
@@ -29,7 +29,7 @@ test('pedido sem cliente deve retornar false', () => {
     expect(validarPedido(pedidoInvalido)).toBe(false);
 });
 
-test('pedido com itens vazio deve retornar false', () => {
+test('Pedido sem itens deve retornar false', () => {
     const pedidoInvalido = {
         cliente: "Carlos",
         total: 150,
