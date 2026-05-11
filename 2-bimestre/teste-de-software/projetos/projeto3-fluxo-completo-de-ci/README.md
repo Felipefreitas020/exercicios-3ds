@@ -1,6 +1,6 @@
-# **📘 PROJETO 3: SIMULANDO UM FLUXO COMPLETO DE CI COM BRANCHES E PULL REQUESTE**
+# 📘 PROJETO 3: SIMULANDO UM FLUXO COMPLETO DE CI COM BRANCHES E PULL REQUESTE
 
-# **🧩 PROBLEMA**
+# 🧩 PROBLEMA
 
 Você faz parte de uma equipe que está desenvolvendo um sistema web.
 
@@ -12,7 +12,7 @@ A equipe decidiu organizar o projeto usando:
 
 Seu trabalho será preparar um repositório seguindo o fluxo da equipe.
 
-# **📋 PROJETO**
+# 📋 PROJETO
 
 O projeto atualmente possui apenas a branch principal (main) e nenhum processo automático.
 
@@ -24,13 +24,13 @@ Você deverá:
 - preparar Pull Request
 - garantir que o build rode automaticamente
 
-# **📌 REQUISITOS**
+# 📌 REQUISITOS
 
 **Esse projeto deve ser feito em um repositório novo**, ou seja, não é para ser feito no repositório “Forkado”!
 
 O nome do repositório deverá ser: **`projeto3-fluxo-completo-de-ci`**.
 
-# **✅ Requisito 1 — Criar branch develop**
+# ✅ Requisito 1 — Criar branch develop
 
 O projeto deve possuir uma branch:
 
@@ -38,7 +38,7 @@ develop
 
 Ela representará a branch de integração/staging.
 
-# **✅ Requisito 2 — Criar branch de funcionalidade**
+# ✅ Requisito 2 — Criar branch de funcionalidade
 
 Criar uma branch:
 
@@ -46,7 +46,7 @@ feature/(nome da funcionalidade)
 
 Essa branch deve conter uma alteração no script do projeto.
 
-# **✅ Requisito 3 — Criar workflow do GitHub Actions**
+# ✅ Requisito 3 — Criar workflow do GitHub Actions
 
 Criar o arquivo:
 
@@ -58,13 +58,13 @@ O workflow deve:
 - instalar dependências
 - rodar build
 
-# **✅ Requisito 4 — Criar script de build**
+# ✅ Requisito 4 — Criar script de build
 
 No package.json deve existir:
 
 "build": "echo Build executado com sucesso"
 
-# **✅ Requisito 5 — Simular Pull Request**
+# ✅ Requisito 5 — Simular Pull Request
 
 O aluno deve:
 
@@ -89,7 +89,7 @@ Pull Request
 GitHub Actions roda pipeline
 ```
 
-# **📦 Estrutura esperada do projeto**
+# 📦 Estrutura esperada do projeto
 
 ```
 projeto
