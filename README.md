@@ -27,7 +27,7 @@ Prazo de Entrega 1: 25-fev (5 pt) | Prazo de Entrega 2: 01-mar (3 pt)
 - **✅ Projeto 2 - Sistema de Cadastro de Tarefas**<br>
 Prazo de Entrega 1: 25-mar (5 pt) | Prazo de Entrega 2: 29-mar (3 pt)
 - **⚠️ Projeto 3 - Simulando um Fluxo Completo de CI com Branches e Pull Request**<br>
-Prazo de Entrega 1: 17-mai (5 pt) | Prazo de Entrega 2: 10-mai (3 pt)
+Prazo de Entrega 1: 17-mai (5 pt) | Prazo de Entrega 2: 20-mai (3 pt)
 
 #### | CONTEÚDOS PARA A PROVA
 ```
